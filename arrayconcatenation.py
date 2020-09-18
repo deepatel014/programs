@@ -5,6 +5,8 @@
 # array_2 = numpy.array([4,5,6])
 # array_3 = numpy.array([7,8,9])
 # print numpy.concatenate((array_1, array_2, array_3))
+# 
+# 
 # #Output
 # [1 2 3 4 5 6 7 8 9]
 # If an array has more than one dimension, it is possible to specify the axis along which multiple arrays are
