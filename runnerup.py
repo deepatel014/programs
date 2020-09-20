@@ -17,12 +17,19 @@
 # Sample Output 0
 # 5
 #
+# a= int(input())
+# arr = list(map(int,input().strip().split())) [:a]
+# z = max(arr)  #//gets the max of the array
+# for i in range(a):
+#     if max(arr) == z:
+#         arr.remove(z)
+# print(max(arr))
+
 a= int(input())
 
-arr = list(map(int,input().strip().split())) [:a]
-z = max(arr)  #//gets the max of the array
+arr =[]
 for i in range(a):
-    if max(arr) == z:
-        arr.remove(z)
+    z = int(input())
+    arr.append(z)
 
-print(max(arr))
+print(arr)
