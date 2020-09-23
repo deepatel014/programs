@@ -14,4 +14,3 @@ for _ in range(a):
 
 
 
-print(arr)
