@@ -1,5 +1,4 @@
 a = int(input())
-
-    tup = tuple(map(int,input().strip().split()))
-
+tu = list([int(input().strip().split())]for _ in range(a))
+tup= tuple(tu)
 print(hash(tup))
