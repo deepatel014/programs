@@ -1,3 +1,4 @@
+#Basically it is a function that shows howmwny times a crtain string has been repeated in a string
 string= input()
 f = input()
 count = 0
