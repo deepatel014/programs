@@ -5,9 +5,42 @@
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:whitesmoke;
 }
 
 /* Here is one of many  CSS rules you will need... */
-#one {
-    
+#one,#two,#three,#four{
+    border:5px solid;
+    margin: 5px;
+    padding:5px;
+    width:25%;
+    position:fixed;
+}
+
+#one{
+    top: 8px;
+    left: 16px;
+    border-color: blue;
+
+}
+#two{
+    top : 8px;
+    right: 16px;
+    border-color: orange;
+}
+#three{
+    bottom:8px;
+    left:16px;
+    border-color: magenta;
+}
+#four{
+    bottom:8px;
+    right:16px;
+    border-color:black;
+}
+
+a{
+    position:fixed;
+    right:50%;
+    background-color: aqua;
 }
