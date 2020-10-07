@@ -1,19 +1,18 @@
-string = input()
-new = list(string.split())
-vowels = ['A','E','I','O','U']
-
-kev = 0
-stu = 0
-
-for i in new:
-    if i in vowels:
-        kev +=len(new)-1
+def minion_game(string):
+    vowel =['A','E','I','O','U']
+    S=0
+    K=0
+    for i in range(len(string)):
+        if string[i] in vowel:
+            K+= len(string)-i
+        else:
+            S+=len(string)-i
+    if S>K:
+        print("Stuart"+" "+ "%d" % S)
+    elif K>S:
+        print("Kevin"+" "+'%d' % K)
     else:
-        stu +=len(new)-1
+        print("Draw")
 
-if kev > stu:
-    print("Kevin {}".format(kev))
-elif kev < stu:
-    print("Stuart {}".format(stu))
-else:
-    print("Draw")
+s = input()
+minion_game(s)
