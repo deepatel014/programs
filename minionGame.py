@@ -15,4 +15,4 @@ def minion_game(string):
         print("Draw")
 
 s = input()
-minion_game(s)
+minion_game(s.upper())
